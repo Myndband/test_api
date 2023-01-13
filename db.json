@@ -1,32 +1,88 @@
 {
-    "getStudents": [
-      {
-        "rollNumber": null,
-        "name": null,
-        "address": null,
-        "percentage": null,
-        "id": 9
-      },
-      {
-        "rollNumber": null,
-        "name": null,
-        "address": null,
-        "percentage": null,
-        "id": 10
-      },
-      {
-        "rollNumber": "Med16056",
-        "name": "Shilratna Chawhan",
-        "address": "NAGPUR",
-        "percentage": 333,
-        "id": 11
+  "posts": [
+    {
+      "-N9RVC1j-Y9RMaokF2pm": {
+        "id": 2,
+        "firstName": "Rolex",
+        "lastName": "S",
+        "email": "rolexsirda@gmail.com",
+        "mobile": "989898988",
+        "salary": "20000000"
       }
-    ],
-    "getStudent": [
-      {
-        "id": 1,
-        "namw": "hdhdhd"
+    }
+  ],
+
+    "Appointments": {
+      "-N9RVC1j-Y9RMaokF2pm": {
+        "A_Age": 33,
+        "A_Country": "New York",
+        "A_Date": "30 Dec 2018",
+        "A_Department": "Cardiology",
+        "A_DrName": "Henry Daniels",
+        "A_Time": "10:00am - 11:00am",
+        "A_status": "Active",
+        "App_Id": "APT0003",
+        "P_Name": "Mack Addoms"
+      }
+    },
+    "D-Appointments": {
+      "-N9RVC1j-Y9RMaokF2pm": {
+        "A_Address": "New York, USA",
+        "A_DrName": "Dr. Cristina Groves",
+        "A_Name": "Bernardo Galaviz",
+        "A_Time": "7.00 PM"
+      }
+    },
+    "D-Doctors": {
+      "-N9RVC1j-Y9RMaokF2pm": {
+        "Dr_Name": "Jhon Doe",
+        "Dr_Position": "MBBS,  MD"
+      }
+    },
+    "Department": {
+      "-N9RVC1j-Y9RMaokF2pm": {
+        "Department_Name": "Dentist",
+        "Department_Status": "Active"
+      }
+    },
+    "Doctors": {
+      "-N9RVC1j-Y9RMaokF2pm": {
+        "Dr_Country": "United States, San Francisco",
+        "Dr_Name": "Cristina Groves",
+        "Dr_Profession": "Gynecologist"
+      }
+    },
+    "Patient": {
+      "-N9RVC1j-Y9RMaokF2pm": {
+        "P_Address": "1545 Dorcey  Ln NE, Leland, NC, 28451",
+        "P_Age": 34,
+        "P_Country": "United States, San Francisco",
+        "P_Email": "jenny@example.com",
+        "P_Name": "Jennifer Robinson",
+        "P_No": 8984757427
+      }
+    },
+    "products": {
+      "-N9RVOVj8boIAhazjJbM": {
+        "desc": "maruti",
+        "pName": "Car",
+        "price": 500000
       },
-      {}
-    ]
+      "-NL0igA6kwxPjgL_pwJv": {
+        "desc": "maruti",
+        "pName": "Car",
+        "price": 500000
+      },
+      "-NL0iij28BuQuSmL_3-2": {
+        "desc": "m34",
+        "pName": "Car",
+        "price": 500000
+      },
+      "-NL0m-gBD3ufgpbM3LvS": {
+        "desc": "maruti",
+        "pName": "gar",
+        "price": 500000
+      }
+   
   }
+}
