@@ -1,88 +1,277 @@
 {
-  "posts": [
+  "Patient": [
     {
-      "-N9RVC1j-Y9RMaokF2pm": {
-        "id": 2,
-        "firstName": "Rolex",
-        "lastName": "S",
-        "email": "rolexsirda@gmail.com",
-        "mobile": "989898988",
-        "salary": "20000000"
-      }
+      "firstName": "Subhaprakash",
+      "lastname": "Nayak",
+      "username": "psubha936",
+      "email": "psubha936@gmail.com",
+      "password": "123",
+      "confirmpassword": "123",
+      "dob": "09/04/1997",
+      "address": "Baleipur",
+      "phone": "07504121364",
+      "status": "option1",
+      "id": 1
+    },
+    {
+      "firstName": "atharva",
+      "lastName": "lodh",
+      "userName": "athu2000",
+      "email": "lodhatharva@gmail.com",
+      "password": "456",
+      "confirmpassword": "456",
+      "dob": "22/04/2000",
+      "gender": "Male",
+      "address": "gdgdfgdf",
+      "city": "titwala",
+      "Pin": "421605",
+      "phone": "8693867997",
+      "Bio": "dfhdfhghghghg",
+      "status": "Active",
+      "id": 3
+    },
+    {
+      "firstName": "Avishakar",
+      "lastName": "bj,kj",
+      "userName": "Avishakar",
+      "email": "avi@f.com",
+      "password": "cggmfj",
+      "confirmpassword": "xfghdhyfh",
+      "dob": "22/04/2000",
+      "gender": "Male",
+      "address": "ghfiysrfyuiujhf",
+      "city": "Bangolore",
+      "Pin": "751412",
+      "phone": "4561237890",
+      "Bio": "wertyuiop",
+      "status": "Active",
+      "id": 6
+    },
+    {
+      "firstName": "Rutuja",
+      "lastName": "D",
+      "userName": "rutuja",
+      "email": "psubha936@gmail.com",
+      "password": "acxcfSRd",
+      "confirmpassword": "",
+      "dob": "22/04/2000",
+      "gender": "Male",
+      "address": "Baleipur",
+      "city": "Kujang",
+      "Pin": "754141",
+      "phone": "07504121364",
+      "Bio": "aefgxfhgjyklk",
+      "status": "Active",
+      "id": 7
     }
   ],
-
-    "Appointments": {
-      "-N9RVC1j-Y9RMaokF2pm": {
-        "A_Age": 33,
-        "A_Country": "New York",
-        "A_Date": "30 Dec 2018",
-        "A_Department": "Cardiology",
-        "A_DrName": "Henry Daniels",
-        "A_Time": "10:00am - 11:00am",
-        "A_status": "Active",
-        "App_Id": "APT0003",
-        "P_Name": "Mack Addoms"
-      }
+  "Department": [
+    {
+      "name": "Dentist",
+      "discription": "Tum Hi Ho",
+      "status": "Inactive",
+      "id": 1
     },
-    "D-Appointments": {
-      "-N9RVC1j-Y9RMaokF2pm": {
-        "A_Address": "New York, USA",
-        "A_DrName": "Dr. Cristina Groves",
-        "A_Name": "Bernardo Galaviz",
-        "A_Time": "7.00 PM"
-      }
+    {
+      "name": "ENT",
+      "discription": "Eye Noise Teeth",
+      "status": "Inactive",
+      "id": 7
     },
-    "D-Doctors": {
-      "-N9RVC1j-Y9RMaokF2pm": {
-        "Dr_Name": "Jhon Doe",
-        "Dr_Position": "MBBS,  MD"
-      }
+    {
+      "name": "ENT143",
+      "discription": "jvujg",
+      "status": "Active",
+      "id": 8
+    }
+  ],
+  "Doctor": [
+    {
+      "firstname": "Atharva123",
+      "lastname": "Lodh",
+      "profession": "Dentist",
+      "email": "lodhatharva@gmail.com",
+      "password": "1234",
+      "confirmPassword": "1234",
+      "BOD": "22/04/2000",
+      "gender": "Male",
+      "address": "Banglore",
+      "country": "USA",
+      "city": "th",
+      "state": "Alaska",
+      "pin": "23456",
+      "phone": "8847811608",
+      "url": "",
+      "info": "Hey Heroo",
+      "status": "Active",
+      "id": 2
     },
-    "Department": {
-      "-N9RVC1j-Y9RMaokF2pm": {
-        "Department_Name": "Dentist",
-        "Department_Status": "Active"
-      }
+    {
+      "firstname": "Rutuja",
+      "lastname": "D",
+      "profession": "ENT",
+      "email": "rutuja@seller.com",
+      "password": "123",
+      "confirmPassword": "123",
+      "BOD": "12-Aug-2000",
+      "gender": "female",
+      "address": "India",
+      "country": "United Kingdom",
+      "city": "Banglore",
+      "state": "Alaska",
+      "pin": "754141",
+      "phone": "8847811608",
+      "url": "",
+      "info": "kjbcadhcbanb,q,",
+      "status": "Active",
+      "id": 3
     },
-    "Doctors": {
-      "-N9RVC1j-Y9RMaokF2pm": {
-        "Dr_Country": "United States, San Francisco",
-        "Dr_Name": "Cristina Groves",
-        "Dr_Profession": "Gynecologist"
-      }
+    {
+      "firstname": "Sagad",
+      "lastname": "dhawale",
+      "profession": "Doctor",
+      "email": "sagad@007",
+      "password": "`1234567890",
+      "confirmPassword": "1234567890",
+      "BOD": "13/08/1999",
+      "gender": "Male",
+      "address": "In My Heart",
+      "country": "USA",
+      "city": "My Home",
+      "state": "California",
+      "pin": "2017",
+      "phone": "749881889900",
+      "url": "",
+      "info": "Sher..!",
+      "status": "Active",
+      "id": 4
     },
-    "Patient": {
-      "-N9RVC1j-Y9RMaokF2pm": {
-        "P_Address": "1545 Dorcey  Ln NE, Leland, NC, 28451",
-        "P_Age": 34,
-        "P_Country": "United States, San Francisco",
-        "P_Email": "jenny@example.com",
-        "P_Name": "Jennifer Robinson",
-        "P_No": 8984757427
-      }
+    {
+      "firstname": "Neetesh",
+      "lastname": "Patel",
+      "profession": "PHD in ENT",
+      "email": "psubha936@gmail.com",
+      "password": "123",
+      "confirmPassword": "123",
+      "BOD": "14/02/1998",
+      "gender": "Male",
+      "address": "Brookfield",
+      "country": "USA",
+      "city": "Banglore",
+      "state": "Alabama",
+      "pin": "754141",
+      "phone": "7504121364",
+      "url": "",
+      "info": "Hey My Swwt broooo..",
+      "status": "Active",
+      "id": 6
     },
-    "products": {
-      "-N9RVOVj8boIAhazjJbM": {
-        "desc": "maruti",
-        "pName": "Car",
-        "price": 500000
-      },
-      "-NL0igA6kwxPjgL_pwJv": {
-        "desc": "maruti",
-        "pName": "Car",
-        "price": 500000
-      },
-      "-NL0iij28BuQuSmL_3-2": {
-        "desc": "m34",
-        "pName": "Car",
-        "price": 500000
-      },
-      "-NL0m-gBD3ufgpbM3LvS": {
-        "desc": "maruti",
-        "pName": "gar",
-        "price": 500000
-      }
-   
-  }
+    {
+      "firstname": "Abhilash",
+      "lastname": "",
+      "profession": "",
+      "email": "",
+      "password": "",
+      "confirmPassword": "",
+      "BOD": "",
+      "gender": "",
+      "address": "India",
+      "country": "",
+      "city": "",
+      "state": "",
+      "pin": "",
+      "phone": "",
+      "url": "",
+      "info": "",
+      "status": "Active",
+      "id": 7
+    }
+  ],
+  "Appointment": [
+    {
+      "aId": "",
+      "pName": "Ratneesh",
+      "department": "ENT",
+      "docterName": "Rutuja",
+      "age": "25",
+      "date": "08-Jan-2023",
+      "time": "1:00-2:00",
+      "country": "INDIA",
+      "state": "Odisha",
+      "pEmail": "Rtnesh.com",
+      "Number": "8847811608",
+      "message": "gfdtuvvhjhhffi",
+      "status": "Active",
+      "id": 2
+    },
+    {
+      "aId": "",
+      "pName": "Rutuja",
+      "department": "rutuj",
+      "docterName": "Dr,rutuja",
+      "age": "23",
+      "date": "5/1/2023",
+      "time": "02:00 pm",
+      "country": "India",
+      "state": "Karnataka",
+      "pEmail": "qwertyuio@sdf",
+      "message": "hello!",
+      "status": "Active",
+      "id": 4
+    },
+    {
+      "aId": "",
+      "pName": "Neetesh",
+      "department": "ENT",
+      "docterName": "Dr,Rutuja",
+      "age": "23",
+      "date": "5/1/2023",
+      "time": "7:pm",
+      "country": "India",
+      "state": "Karnataka",
+      "pEmail": "qwertyuio@sdf",
+      "Number": "",
+      "message": "asdfg",
+      "status": "Inactive",
+      "id": 5
+    },
+    {
+      "aId": "",
+      "pName": "Abhishek",
+      "department": "OPD",
+      "docterName": "Subhaprakash",
+      "age": "21",
+      "date": "08-Jan-2023",
+      "time": "1:00-2:00",
+      "country": "India",
+      "state": "Odisha",
+      "pEmail": "abhishek@gmail.com",
+      "message": "Hey you r Good friend",
+      "status": "Active",
+      "id": 6
+    }
+  ],
+  "signupdetails": [
+    {
+      "username": "Rutuja",
+      "email": "rutuja@cmd.com",
+      "password": "123",
+      "number": "8847811608",
+      "id": 1
+    },
+    {
+      "username": "Neetesh",
+      "email": "neetesh@cmd.com",
+      "password": "123456",
+      "number": "8847811608",
+      "id": 2
+    },
+    {
+      "username": "Subhaprakash Nayak",
+      "email": "psubha936@gmail.com",
+      "password": "123456",
+      "number": "8847811608",
+      "id": 3
+    }
+  ]
 }
